@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Smooch&display=swap');
+:root{
+   --header-height: 3.5rem;
+   --first-color: hsl(34, 52%, 54%);
+   --first-color-light: hsl(34, 52%, 64%);
+   --first-color-lighten: hsl(34, 52%, 68%);
+   --black-color: hsl(0, 0%, 4%);
+   --body-font: 'Montserrat', sans-serif;
+   --second-font: 'Smooch', cursive;
+   --biggest-font-size: 6rem;
+   --h3-font-size: 1rem;
+   --normal-font-size: .938rem;
+   --small-font-size: .813rem;
+   @media screen and (min-width: 1150px){
+      --biggest-font-size: 17rem;
+      --h2-font-size: 1.5rem;
+      --h3-font-size: 1.25rem;
+      --normal-font-size: 1rem;
+      --small-font-size: .875rem;
+   }
+   --font-regular: 400;
+   --font-semi-bold: 600;
+   --z-tooltip: 10;
+   --z-fixed: 100;
+}
