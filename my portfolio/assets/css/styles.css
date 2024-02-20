@@ -146,7 +146,7 @@ ul
 }
 .section
 {
-    background: linear-gradient( rgba(44, 46, 45, 0.877), rgba(34, 34, 34, 0.661)), url('/topo copy.jpg') no-repeat center center fixed ;
+    background: linear-gradient( rgba(44, 46, 45, 0.877), rgba(34, 34, 34, 0.661)), url('../topo copy.jpg') no-repeat center center fixed ;
     min-height: 100vh;
     display: block;
     padding: 0 0px;
