@@ -38,7 +38,7 @@ sr.reveal(`.home__subcircle`, {scale: 1.5, delay: 500})
 sr.reveal(`.home__title`, {scale: 1, origin: 'bottom', delay: 1200})
 sr.reveal(`.contact`, {scale: 1, origin: 'bottom', delay: 1200})
 sr.reveal(`.text__fade`, {scale: 1, origin: 'bottom', delay: 1200})
-sr.reveal('.hexagon',{scale: 1.5, origin: 'top', delay: 300} );
+sr.reveal('.hexagon',{scale: 1, origin: 'bottom', delay: 800} );
 
 const nav = document.querySelector(".nav"),
       navList = nav.querySelectorAll("li"),
