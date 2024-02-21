@@ -1036,10 +1036,11 @@ ul {
   .slider .list .item .content h2 {
     font-size: 40px;
   }
-  /* .thumbnail .item{
+  .thumbnail .item{
     width: 100px;
-    height:180px;
-  } */
+    height:170px;
+    transform: translateY(60px);
+  }
 }
 
 .rowmain {
