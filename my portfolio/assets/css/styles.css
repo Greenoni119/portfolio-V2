@@ -878,6 +878,7 @@ ul {
   overflow: hidden;
   opacity: 0;
   transition: 0.5s;
+ 
 }
 .slider .list .item img {
   width: 100%;
@@ -896,7 +897,7 @@ ul {
 .slider .list .item .content {
   position: absolute;
   left: 10%;
-  top: 20%;
+  top: 21%;
   width: 500px;
   max-width: 80%;
   z-index: 1;
