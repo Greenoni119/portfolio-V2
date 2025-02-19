@@ -33,11 +33,11 @@ const sr = ScrollReveal({
    reset: true ,
 })
 
-sr.reveal(`.home__circle`, {scale: 1.5, delay: 300})
-sr.reveal(`.home__subcircle`, {scale: 1.5, delay: 500})
-sr.reveal(`.home__title`, {scale: 1, origin: 'bottom', delay: 1200})
-sr.reveal(`.contact`, {scale: 1, origin: 'bottom', delay: 1200})
-sr.reveal(`.text__fade`, {scale: 1, origin: 'bottom', delay: 1200})
+sr.reveal(`.home__circle`, {scale: 1.5, delay: 6000})
+sr.reveal(`.home__subcircle`, {scale: 1.5, delay: 6200})
+sr.reveal(`.home__title`, {scale: 1, origin: 'bottom', delay: 7000})
+sr.reveal(`.contact`, {scale: 1, origin: 'bottom', delay: 7000})
+sr.reveal(`.text__fade`, {scale: 1, origin: 'bottom', delay: 7000})
 sr.reveal('.hexagon',{scale: 1, origin: 'bottom', delay: 800} );
 
 const nav = document.querySelector(".nav"),

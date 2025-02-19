@@ -16,6 +16,62 @@
     <title>charles greene portfilio</title>
   </head>
   <body>
+
+    <div id="loader-overlay">
+      <div class="loader">
+        <div class="tars">
+          <div class="containerL 1">
+            <div class="shape">
+              <div class="f"></div>
+              <div class="b"></div>
+              <div class="l"></div>
+              <div class="r"></div>
+              <div class="t"></div>
+              <div class="bot"></div>
+            </div>
+          </div>
+          <div class="containerL 2">
+            <div class="shape">
+              <div class="f"></div>
+              <div class="b"></div>
+              <div class="l"></div>
+              <div class="r"></div>
+              <div class="t"></div>
+              <div class="bot"></div>
+            </div>
+          </div>
+          <div class="containerL 3">
+            <div class="shape">
+              <div class="f"></div>
+              <div class="b"></div>
+              <div class="l"></div>
+              <div class="r"></div>
+              <div class="t"></div>
+              <div class="bot"></div>
+            </div>
+          </div>
+          <div class="containerL 4">
+            <div class="shape">
+              <div class="f"></div>
+              <div class="b"></div>
+              <div class="l"></div>
+              <div class="r"></div>
+              <div class="t"></div>
+              <div class="bot"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        setTimeout(() => {
+          document.getElementById("loader-overlay").style.display = "none";
+          document.querySelector(".main-container").style.display = "block";
+        }, 6000); // Adjust time as needed (3000ms = 3 seconds)
+      });
+    </script>
+    
     <div class="main-container">
       <div class="aside">
         <div class="logo">
@@ -29,7 +85,7 @@
             <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
           </li>
           <li>
-            <a href="#services"><i class="fa fa-list"></i>Services</a>
+            <a href="#services" style="display: none;"><i class="fa fa-list"></i>Services</a>
           </li>
           <li>
             <a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a>
@@ -38,7 +94,7 @@
             <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
           </li>
           <li>
-            <a href=""><i class="fa-solid fa-file"></i>Resume</a>
+            <a href="" style="display: none;"><i class="fa-solid fa-file"></i>Resume</a>
           </li>
           <div style="color: aliceblue; height: 2px; width: 20px"></div>
           <li>
@@ -89,15 +145,7 @@
                     <div class="about-text padd-15">
                       <h3 id="headingText" class="">Hey! I'm Charlie</h3>
                       <p>
-                        As a passionate Web Developer based in the vibrant San
-                        Francisco Bay Area, I thrive on crafting innovative
-                        websites and applications. With over a decade of coding
-                        experience cultivated during my time in the Army, I
-                        continue to expand my skills through academic pursuits
-                        while freelancing across the Bay Area. Renowned for my
-                        robust work ethic, I eagerly embrace new challenges and
-                        opportunities for learning, ensuring that I remain at
-                        the forefront of technological advancements.
+                        I'm a passionate Web Developer based in the San Francisco Bay Area, specializing in building modern, accessible, and high-performing web applications. With a strong foundation in both front-end and back-end technologies, I’ve worked across industries, from government and education to enterprise cloud solutions. My journey began in the U.S. Army, where I developed mission-critical applications, and has since evolved through roles at Contra Costa County Superior Court, Amazon AWS, and San Mateo Community College District.
                       </p>
                     </div>
                   </div>
@@ -347,13 +395,14 @@
                       <div class="row">
                         <div class="timeline-box padd-15">
                           <div class="timeline shadow-dark">
+
                             <div class="timeline-item">
                               <div class="circle-dot"></div>
                               <h3 class="timeline-date">
-                                <i class="fa fa-calendar"></i> 2023 - Present
+                                <i class="fa fa-calendar"></i> 2024 - Present
                               </h3>
                               <h4 class="timeline-title">
-                                Bachelor's in Computer Science
+                                Bachelor's in Computer Science (In Process)
                               </h4>
                               <p class="timeline-text">
                                 Currently pursuing a Bachelor's degree in
@@ -365,16 +414,18 @@
                             <div class="timeline-item">
                               <div class="circle-dot"></div>
                               <h3 class="timeline-date">
-                                <i class="fa fa-calendar"></i> 2021 - 2023
+                                <i class="fa fa-calendar"></i> 2022 - 2024
                               </h3>
                               <h4 class="timeline-title">
                                 Associates in Computer Science
                               </h4>
                               <p class="timeline-text">
-                                Earned an Associate's degree in Computer Science
-                                from the College of San Mateo.
+                                Earned an Associate's degree in Web Development
+                                from College of San Mateo.
                               </p>
                             </div>
+
+                            
 
                             <div class="timeline-item">
                               <div class="circle-dot"></div>
@@ -402,19 +453,42 @@
                       <div class="row">
                         <div class="timeline-box padd-15">
                           <div class="timeline shadow-dark">
+
                             <div class="timeline-item">
                               <div class="circle-dot"></div>
                               <h3 class="timeline-date">
-                                <i class="fa fa-calendar"></i> 2023 - Present
+                                <i class="fa fa-calendar"></i> 2024 - Present
                               </h3>
                               <h4 class="timeline-title">
-                                Programer Analyst Intern
+                                Web Developer 
                               </h4>
                               <p class="timeline-text">
-                                Currently working with the ITS Web Services team
-                                at the San Mateo Community College School
-                                District. Managing student data, error tickets,
-                                web design and more.
+                                Leading multiple web development projects from planning to deployment, ensuring visually appealing, user-friendly, and accessible applications. Implementing ADA compliance (Section 508, WCAG 2.1) and optimizing content using Drupal, JSP, C#, and modern front-end frameworks.
+                              </p>
+                            </div>
+
+                            <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2024
+                              </h3>
+                              <h4 class="timeline-title">
+                                Front-End developer Intern
+                              </h4>
+                              <p class="timeline-text">
+                                Developed responsive and accessible user interfaces using HTML5, CSS3, JavaScript, and Bootstrap for enterprise applications. Contributed to React and Next.js projects, optimizing codebases, improving performance, and collaborating with cross-functional teams to enhance application architecture.
+                              </p>
+                            </div>
+                            <div class="timeline-item">
+                              <div class="circle-dot"></div>
+                              <h3 class="timeline-date">
+                                <i class="fa fa-calendar"></i> 2022 - 2024
+                              </h3>
+                              <h4 class="timeline-title">
+                                Web Developer Student Assistant
+                              </h4>
+                              <p class="timeline-text">
+                                Designed and maintained PHP-based web applications, ensuring accessibility compliance and improving user experience with modern front-end technologies. Provided technical support, troubleshooting, and participated in district-wide IT meetings to refine technology standards and project strategies.
                               </p>
                             </div>
 
@@ -425,11 +499,7 @@
                               </h3>
                               <h4 class="timeline-title">Software developer</h4>
                               <p class="timeline-text">
-                                Still serving in the United States Army, I
-                                served as a FullStack Developer along side
-                                NETCOM (Network Enterprise Technology Command)
-                                building applications and developing webpages
-                                for the U.S. Army .
+                                Built and maintained mission-critical web applications for Army operations, leveraging C#, JSP, and JavaScript for secure, scalable solutions. Integrated Bootstrap and Tailwind CSS to enhance UI/UX while ensuring compliance with military security protocols and accessibility standards.
                               </p>
                             </div>
 
@@ -442,11 +512,7 @@
                                 Informatin Techlology Specialist
                               </h4>
                               <p class="timeline-text">
-                                Handled a wide range of tasks, including
-                                installing and configuring software and
-                                hardware, providing technical support to users,
-                                ensuring network security protocols are upheld,
-                                and performing routine system maintenance..
+                             Managed IT infrastructure, software installations, and network security while providing technical support to military personnel. Developed and maintained web-based tools to streamline operations, ensuring efficiency and compliance with cybersecurity protocols.
                               </p>
                             </div>
                           </div>
